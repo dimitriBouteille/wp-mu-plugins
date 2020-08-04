@@ -1,0 +1,28 @@
+{
+  "name": "dbout/wp-mu-plugins",
+  "description": "Collection of mu-plugins for Wordpress",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dimitri BOUTEILLE",
+      "email": "bonjour@dimitri-bouteille.fr",
+      "homepage": "https://github.com/dimitriBouteille",
+      "role": "Developer"
+    }
+  ],
+  "keywords": ["wordpress", "wp", "plugin", "mu-plugin"],
+  "homepage": "https://github.com/dimitriBouteille/wp-mu-plugins/",
+  "support": {
+    "issues": "https://github.com/dimitriBouteille/wp-mu-plugins/issues"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dbout\\WpMuPlugins\\": "src/"
+    }
+  }
+}
